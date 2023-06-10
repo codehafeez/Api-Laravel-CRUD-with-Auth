@@ -1,25 +1,26 @@
-https://codehafeez.com/fantasy/public/api/leagues
+# API Postman - Laravel API CRUD with Auth
 
-composer install
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.codehafeez.com/)
 
-php artisan migrate
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/codehafeez/)
+
+[![whatsapp](https://img.shields.io/badge/whatsapp-GREEN?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=923123349398)
+
+
+
+```bash
 php artisan serve
-
-Post => http://127.0.0.1:8000/api/register
-Post => http://127.0.0.1:8000/api/login
+```    
 
 
+## Screenshots
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-01.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-02.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-03.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-04.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-05.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-06.png)
+![](https://raw.githubusercontent.com/codehafeez/Api-Laravel-CRUD-with-Auth/main/Screenshots/Output-07.png)
 
 
-CREATE TABLE leagues (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    email VARCHAR(255),
-    password VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-
-php artisan make:model League
-php artisan make:controller Api/LeaguesController --api
-
+## 🔗 www.codehafeez.com
